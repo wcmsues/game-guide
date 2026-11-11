@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>攻略本 · 游戏攻略速查</title>
+<meta name="description" content="可以添加到 iPhone 主屏幕的游戏攻略速查工具，支持多款游戏、离线查看、进度打卡。">
+<meta name="theme-color" content="#0b0e11">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="攻略本">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<div id="app" class="app"></div>
+<button id="toTop" class="totop" aria-label="回到顶部">↑</button>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<noscript><p style="padding:24px;color:#d8dde2">需要开启 JavaScript 才能查看攻略。</p></noscript>
+
+<script src="js/games.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
