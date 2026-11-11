@@ -4,6 +4,8 @@
 
 支持多款游戏，目前收录 **GTA 5** 与 **赛博朋克 2077**。
 
+**在线访问**：<https://wcmsues.github.io/game-guide/>
+
 <p align="center">
   <img src="docs/screenshots/home.png" width="240" alt="攻略库首页" />
   <img src="docs/screenshots/gta5.png" width="240" alt="GTA 5 主线攻略" />
@@ -34,11 +36,10 @@ python3 -m http.server 8000
 
 ## 装到 iPhone 主屏幕
 
-1. 把仓库部署到任意支持 HTTPS 的静态托管（GitHub Pages / Netlify / Vercel）。
-2. GitHub Pages：仓库 **Settings → Pages → Source** 选 `Deploy from a branch`，分支 `main`、目录 `/ (root)`。
-3. iPhone Safari 打开站点 → **分享 → 添加到主屏幕**，之后即可全屏、离线打开。
+1. 用 iPhone Safari 打开 <https://wcmsues.github.io/game-guide/>。
+2. 点底部 **分享 → 添加到主屏幕**，之后即可全屏、离线打开。
 
-开启 Pages 后地址为 <https://wcmsues.github.io/game-guide/>。
+自己部署也很简单，推到任意 HTTPS 静态托管即可（GitHub Pages / Netlify / Vercel）。仓库对应的 Pages 配置：**Settings → Pages → Source** 选 `Deploy from a branch`，分支 `main`、目录 `/ (root)`。
 
 ## 目录结构
 
