@@ -96,6 +96,18 @@
       searchHint: '搜索任务 / 关键词（如：帕南、结局、荒坂）…',
       cover: 'icons/covers/cyberpunk2077.jpg',
       source: 'games/cyberpunk2077.js'
+    },
+    {
+      id: 'cyberpunk2077pl',
+      name: '赛博朋克 2077 · 往日之影',
+      sub: 'DLC 主线 17 条 · 两条路线 · 高塔结局',
+      badge: 'PL',
+      color1: '#131a17',
+      color2: '#6fe8b8',
+      color3: '#2f9a7a',
+      searchHint: '搜索任务 / 关键词（如：狗镇、百灵鸟、李德、结局）…',
+      cover: 'icons/covers/cyberpunk2077pl.jpg',
+      source: 'games/cyberpunk2077-pl.js'
     }
   ];
 })(window);

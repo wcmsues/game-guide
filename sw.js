@@ -1,5 +1,5 @@
 /* 离线缓存：改版本号即可让所有客户端更新 */
-var VERSION = 'gg-v4';
+var VERSION = 'gg-v7';
 var ASSETS = [
   './',
   './index.html',
@@ -9,8 +9,10 @@ var ASSETS = [
   './js/app.js',
   './games/gta5-data.js',
   './games/cyberpunk2077.js',
+  './games/cyberpunk2077-pl.js',
   './icons/covers/gta5.jpg',
   './icons/covers/cyberpunk2077.jpg',
+  './icons/covers/cyberpunk2077pl.jpg',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/icon-maskable-512.png',
